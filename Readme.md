@@ -16,29 +16,30 @@ This token_id can then be added to the headers Authentication field for login an
 2. /login: 
 `https://euybnvh6j6.execute-api.us-east-1.amazonaws.com/dev/login`
 
-We add the token_id to the Authentication field in the login header. 
+We add the token_id to the `Authentication field` in the login header.
+We also have to check if the `Content-Type` is `application/json`
 
 3. /reserve
 `https://euybnvh6j6.execute-api.us-east-1.amazonaws.com/dev/login/reserve`
 
-We add the token_id to the Authentication field in the header.
+We add the token_id to the `Authentication field` in the header.
 We need to add the business_id of the restaurant where we want to reserve a table.
 
 4. /setFavourite
 `https://euybnvh6j6.execute-api.us-east-1.amazonaws.com/dev/login/setfavourite`
 
-We add the token_id to the Authentication field in the header.
+We add the token_id to the `Authentication field` in the header.
 We need to add the name of our favourite restaurant to body of the HTTP request
 
 5. /unsetFavourite
 `https://euybnvh6j6.execute-api.us-east-1.amazonaws.com/dev/login/unsetfavourite`
 
-We add the token_id to the Authentication field in the header.
+We add the token_id to the `Authentication field` in the header.
 We need to add the name of the restaurant that we want to remove from our faourites.
 
 6. /getBusiness
 `https://euybnvh6j6.execute-api.us-east-1.amazonaws.com/dev/getbusiness`
 
-We add the token_id to the Authentication field in the header.
+We add the token_id to the `Authentication field` in the header.
 We need to add the location around which we will get Business ids and business names of restaurants
 to dine in.
