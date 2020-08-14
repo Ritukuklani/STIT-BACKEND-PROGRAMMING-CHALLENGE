@@ -1,6 +1,10 @@
 ###Here is the API gateway endpoint to test the functionality.
 `https://euybnvh6j6.execute-api.us-east-1.amazonaws.com/dev`
 
+###Example
+![example](Images/UserTable.PNG)
+![example](Images/ReservationTable.PNG)
+
 The endpoints are as follows:
 1. /register:
 `https://euybnvh6j6.execute-api.us-east-1.amazonaws.com/dev/registeruser`
