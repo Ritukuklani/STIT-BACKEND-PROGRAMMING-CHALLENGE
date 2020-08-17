@@ -4,6 +4,7 @@
 ###Example
 ![example](Images/UserTable.PNG)
 ![example](Images/ReservationTable.PNG)
+![example](Images/GetBusiness.PNG)
 
 The endpoints are as follows:
 1. /register:
